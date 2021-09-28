@@ -34,6 +34,7 @@ function draw() {
   push();
   translate(width / 2, height / 2);
   rotate(frameCount * 6);
+  noFill();
  
   let myColor = lerpColor(color("#7f01fe"), color("#f5347f"), frameCount / 100);
   stroke(myColor);
